@@ -109,6 +109,8 @@ while True:
         spiral_fade()
     sleep(100)
 ```
+### Video
+https://github.com/user-attachments/assets/6d62b4cd-67ab-448b-bd4f-8677abafdf2f
 
 ## Sensores basicos
 
@@ -177,6 +179,10 @@ while True:
 
 ```
 
+### Video
+https://github.com/user-attachments/assets/3cd4f5a7-f590-4f2a-b4d0-0dfed772958e
+
+
 
 ## Radio
 
@@ -241,6 +247,10 @@ while True:
     sleep(50)
 
 ```
+
+### Video
+https://github.com/user-attachments/assets/be8a9095-7856-4deb-ad41-0ad4c24b96fe
+
 ## Otros
 
 - Muestra en la matriz un aviso al entrar en cada función.
@@ -314,3 +324,7 @@ while True:
     sleep(100)
 
 ```
+
+### Video
+https://github.com/user-attachments/assets/8bb41c0b-caae-48fb-94b5-6e433b7d8a43
+
