@@ -1,5 +1,23 @@
 # LI-Microbit
-## Matriz led
+## Matriz led:
+
+Incluye tres animaciones distintas:
+
+- Efecto “ripple” (ondas concéntricas)
+
+- Lluvia de píxeles (efecto Matrix)
+
+- Espiral de brillo (sube y baja intensidad por filas)
+
+Puedes lanzar cada animación con un botón o gesto:
+
+- Botón A → Ripple
+
+- Botón B → Lluvia
+
+- Sacudida → Espiral
+
+### Codigo
 ```
 from microbit import *
 import random
@@ -93,6 +111,16 @@ while True:
 ```
 
 ## Sensores basicos
+
+- Lee temperatura (°C)
+
+- Lee luz ambiental (0–255)
+
+- Lee acelerómetro (X/Y/Z)
+
+- Muestra cada dato de forma clara y gráfica en la matriz 5×5
+
+### Codigo
 ```
 from microbit import *
 
@@ -151,6 +179,22 @@ while True:
 
 
 ## Radio
+
+1. Botón A: envía el mensaje "DATOS" y espera un "ACK" hasta 3 veces (1 segundo cada intento).
+
+2. En cada intento verás en la matriz el número de intento (1, 2 o 3).
+
+3. Si recibe el ACK dentro del tiempo, muestra 😊, si no, muestra 😞.
+
+4. Al recibir cualquier otro mensaje (p. ej. "DATOS"), el receptor:
+
+- Lo despliega con display.scroll()
+
+- Envía "ACK" de vuelta
+
+- Muestra ✓ brevemente.
+
+### Codigo
 ```
 from microbit import *
 import radio
@@ -199,6 +243,13 @@ while True:
 ```
 ## Otros
 
+- Muestra en la matriz un aviso al entrar en cada función.
+
+- Reduce las iteraciones de arcoíris para que veas el cambio más rápido.
+
+- Confirma el “shake” con un icono antes de disparar el efecto.
+
+### Codigo
 ```
 from microbit import *
 from neopixel import NeoPixel
